@@ -1,6 +1,6 @@
 
 // Mostrando o numero de produtos no cart
-import {arrayProducts,arrayOrders, ordersNumber, addOrdersNumber, findProductById, findProductInOrder, findOrderById, saveChangeOnProduct} from '../data/productData.js'
+import {arrayProducts,arrayOrders, ordersNumber, addOrdersNumber, findProductById, saveChangeOnProduct} from '../data/productData.js'
 
 // const productList = JSON.parse(localStorage.getItem('productList')) ?? [];
 
