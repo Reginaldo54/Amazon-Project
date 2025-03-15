@@ -1,4 +1,4 @@
-import {findOrderById, findProductById, findProductInOrder} from '../data/product-module.js';
+import {findOrderById, findProductById, findProductInOrder} from '../data/productData.js';
 // Mostrando o numero de produtos no cart
 let ordersNumber = JSON.parse(localStorage.getItem('qtdProduct')) ?? 0;
 
@@ -14,7 +14,6 @@ const productInfo = JSON.parse(localStorage.getItem('product-tracked'));
   
   // Picking elements
   const order = findOrderById(orderId);
-  console.log(order)
   const productInOrder = findProductInOrder(order, productId);
   
 

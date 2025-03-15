@@ -1,6 +1,6 @@
 
 // Mostrando o numero de produtos no cart
-import {arrayProducts,arrayOrders, ordersNumber, addOrdersNumber, findProductById, findProductInOrder, findOrderById, saveChangeOnProduct} from '../data/product-module.js'
+import {arrayProducts,arrayOrders, ordersNumber, addOrdersNumber, findProductById, findProductInOrder, findOrderById, saveChangeOnProduct} from '../data/productData.js'
 
 // const productList = JSON.parse(localStorage.getItem('productList')) ?? [];
 
@@ -182,8 +182,6 @@ function buyOneItemMore()
           quantity: 1,
           deliveryOptionId: '1'
         }
-
-        console.log(newProduct);
         
         // se tiver no cart, soma +1 a quantidade.
         productIsOnCart(newProduct)
