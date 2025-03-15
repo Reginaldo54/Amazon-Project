@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Amazon</title>
+
+  <link rel="stylesheet" href="./styles/general.css">
+  <link rel="stylesheet" href="./styles/amazon-header.css">
+  <link rel="stylesheet" href="./styles/amazon-product.css">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+</head>
+<body>
+  <header>
+    <div class="header-content">
+     <a class="header-icon" href="./amazon.html">
+       <picture>
+        <source media="(max-width:575px)" srcset="./images/amazon-mobile-logo-white.png">
+        <img src="./images/amazon-logo-white.png" alt="">
+       </picture>
+      </a>
+      <section class="search">
+        <input type="text" placeholder="Search">
+        <button>
+          <img src="./images/icons/search-icon.png" alt="">
+        </button>
+      </section>
+      <section class="orders">
+        <img src="./images/icons/hamburger-menu.png" alt="" class="menu-hamburger">
+        <a class="returnAndOrders" href="./orders.html">
+          <span class="returns-text">Returns</span>
+          <span class="orders-text">& Orders</span>
+        </a>
+        <a class="cart" href="./checkout.html">
+          <div class="cart-icon-container">
+            <img src="./images/icons/cart-icon.png" alt="" class="cart-icon">
+            <span class="cart-number">0</span>
+          </div>
+          <span>Cart</span>
+        </a>
+      </section >
+    </div>
+       
+     <section class="menu-hamburger-content" inert>
+         <a href="./orders.html">
+           <span>Returns& Orders</span>
+         </a>
+           
+         <a href="./checkout.html">
+           <span>Cart (<span >0</span>)</span>
+         </a>
+     </section>
+   </header>
+  <main>
+   <div class="product-grid">
+
+   </div>
+  </main>
+
+  <script type="module" src="./js/product.js"></script>
+  <script src="./js/menuHamburger.js"></script>
+  
+</body>
+</html>

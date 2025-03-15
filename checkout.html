@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CheckOut</title>
+
+  <link rel="stylesheet" href="./styles/general.css">
+  <link rel="stylesheet" href="./styles/checkout-header.css">
+  <link rel="stylesheet" href="./styles/checkout-product.css">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+</head>
+<body>
+  <header class="header-checkout">
+    <div class="header-checkout-content">
+      <a class="header-icon-container" href="./amazon.html">
+        <picture>
+          <source media="(max-width: 575px)" srcset="./images/amazon-mobile-logo.png">
+          <img src="./images/amazon-logo.png" alt="" class="header-icon">
+        </picture>
+      </a>
+      <div class="checkout-items">
+        Checkout (<a class="items-qtd" href="./amazon.html" title="Pick more items">0 items</a>)
+      </div>
+      <div class="checkout-lock">
+        <img src="./images/icons/checkout-lock-icon.png" alt="">
+      </div>
+    </div>
+  </header>
+  <main>
+   <div class="checkout-product-container">
+    <div class="page-title">
+      Review your order
+    </div>
+    <div class="checkout-product-grid">
+      <div class="products-orders">
+
+      </div>
+  
+      <div class="order-summary">
+        
+      </div>
+    </div>
+   </div>
+  </main>
+  
+  <script type="module" src="./js/checkout.js"></script>
+
+</body>
+</html>

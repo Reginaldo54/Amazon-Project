@@ -1,0 +1,98 @@
+
+
+
+main
+{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 2rem 0;
+}
+
+
+.content-container
+{
+  width: 70vw;
+}
+
+.going-orders-page
+{
+  display: block;
+  margin-bottom: 28px;
+}
+
+
+
+/* ===-Tracked product info-===*/
+.tracked-product-info
+{
+  margin-bottom: 47px;
+}
+
+.product-title
+{
+  margin-bottom: 8px;
+  font-size: 25px;
+}
+
+
+.product-name,
+.product-quantity-container
+{
+  margin-bottom: 5px;
+}
+
+.product-image-container
+{
+  margin-top: 30px;
+}
+
+.product-image
+{
+  width: 142px;
+}
+
+/* ===-ProgressBar-=== */
+
+
+.product-progress-bar-container
+{
+  width: 100%;
+  font-size: 20px;
+  color: black;
+  font-weight:600;
+}
+
+.progress-bar-state
+{
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 15px;
+  transition: color 1s;
+}
+
+.product-progress-concluded
+{
+  color: rgb(6, 125, 98);
+}
+
+.product-progress-bar
+{
+  border: 1px solid rgba(0, 0, 0, 0.17);
+  height: 25px;
+  border-radius: 25px;
+  overflow: hidden;
+}
+
+.progress-bar
+{
+  background-color: green;
+  height: 100%;
+  transition: width 3.5s;
+  border-radius: 25px;
+  width: 0px;
+  max-width: 100%;
+}
+
+
