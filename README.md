@@ -1,7 +1,7 @@
 # Amazon-Project
 
-<h3>Link do projeto em deploy:</h3>
-
+<h3>Deploy do projeto:</h3>
+<a href='https://reginaldo54.github.io/Amazon-Project/amazon.html' title='https://reginaldo54.github.io/Amazon-Project/amazon.html' target='_blank'>Click aqui</a>
 
 <h3>Como rodar o código:</h3>
 Clicar com o botão direito em uma das quatro páginas em html no projeto -> amazon, checkout, orders, tracking No popup clicar em abrir com um navegador.
